@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minion Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Minion Maker</h1>
+    <form id="minion-form">
+        <label for="eyes">Eyes:</label>
+        <select id="eyes" name="eyes">
+            <option value="round%20glowing">Round Glowing</option>
+            <option value="square">Square</option>
+            <option value="circular">Circular</option>
+        </select>
+        
+        <label for="nose">Nose:</label>
+        <select id="nose" name="nose">
+            <option value="triangular-shaped">Triangular</option>
+            <option value="round">Round</option>
+            <option value="pointy">Pointy</option>
+        </select>
+        
+        <label for="mouth">Mouth:</label>
+        <select id="mouth" name="mouth">
+            <option value="O-shaped">O-shaped</option>
+            <option value="smiling">Smiling</option>
+            <option value="frowning">Frowning</option>
+        </select>
+        
+        <label for="background">Background:</label>
+        <select id="background" name="background">
+            <option value="misty%20night">Misty Night</option>
+            <option value="daytime">Daytime</option>
+            <option value="sunset">Sunset</option>
+        </select>
+        
+        <label for="style">Style:</label>
+        <select id="style" name="style">
+            <option value="cartoon">Cartoon</option>
+            <option value="realistic">Realistic</option>
+            <option value="anime">Anime</option>
+        </select>
+        
+        <button id="generate-btn">Generate Minion!</button>
+    </form>
+    
+    <div id="minion-image-container">
+        <img id="minion-image" src="" alt="Generated Minion">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
